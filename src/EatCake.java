@@ -5,9 +5,10 @@ public class EatCake {
 		
 	}
 	
-	public void eatCake(Recursion cake)
+	public static void eatCake(Recursion cake)
 	{
-		
+		if (!cake.isEmpty())
+		cake.takeABite();
 		eatCake(cake);
 	}
 
