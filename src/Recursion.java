@@ -18,7 +18,10 @@ public class Recursion {
 	}
 	public boolean isEmpty()
 	{
-		return bites = 0;
+		boolean checker = false;
+		if (bites == 0)
+			checker = true;
+		return checker;
 	}
 
 }
