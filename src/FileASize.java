@@ -11,7 +11,7 @@ public class FileASize {
 		if (file.isDirectory())
 			{
 				File[] files = file.listFiles();
-				List<File> xFiles = new LinkedList<>(Arrays.toList(files));
+				List<File> xFiles = new LinkedList<>(Arrays.asList(files));
 				for(File f : xFiles)
 				{
 					size +=getSize(f);
