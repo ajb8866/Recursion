@@ -8,12 +8,17 @@ public class Recursion {
 	}
 	public Recursion()
 	{
-		//fix me
+		//nothing to implement
 	}
 	
 	public void takeABite()
 	{
-		
+		--bites;
+		System.out.print("Yum...");
+	}
+	public boolean isEmpty()
+	{
+		return bites = 0;
 	}
 
 }
